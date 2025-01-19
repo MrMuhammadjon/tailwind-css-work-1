@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/responsive.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -13,22 +14,29 @@
 
     <header
         class="w-[95%] h-[100px] flex justify-between items-center bg-gray-400 rounded-[20px] m-auto my-5 border-2 border-gray-700">
-        <div class="flex-1 h-[100%] flex items-center px-[20px] gap-10">
+        <div id="head-l" class="flex-1 h-[100%] flex items-center px-[20px] gap-10">
             <img src="img/images.png" class="w-[100px] rounded-2xl object-cover" alt="">
-            <ul class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
-                <a class="text-[20px] font-medium px-[10px]" href="#">MEN</a>
-            </ul>
-            <ul class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
-                <a class="text-[20px] font-medium px-[10px]" href="#">WOMEN</a>
-            </ul>
-            <ul class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
-                <a class="text-[20px] font-medium px-[10px]" href="#">SALE</a>
-            </ul>
-            <ul class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
-                <a class="text-[20px] font-medium px-[10px]" href="#">CHILDERN</a>
-            </ul>
-            <ul class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
-                <a class="text-[20px] font-medium px-[10px]" href="#">COLLECTION</a>
+            <ul id="head-ul" class="flex gap-5">
+                <li id="head-a"
+                    class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
+                    <a class="md:text-[16px] lg:text-[18px] text-[20px] font-medium px-[10px]" href="#">MEN</a>
+                </li>
+                <li id="head-a"
+                    class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
+                    <a class="md:text-[16px] lg:text-[18px] text-[20px] font-medium px-[10px]" href="#">WOMEN</a>
+                </li>
+                <li id="head-a"
+                    class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
+                    <a class="md:text-[16px] lg:text-[18px] text-[20px] font-medium px-[10px]" href="#">SALE</a>
+                </li>
+                <li id="head-a"
+                    class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
+                    <a class="md:text-[16px] lg:text-[18px] text-[20px] font-medium px-[10px]" href="#">CHILDERN</a>
+                </li>
+                <li id="head-a"
+                    class="border-r-2 border-gray-300 hover:translate-y-[-5px] hover:text-yellow-300 transition-[1s] eyes">
+                    <a class="md:text-[16px] lg:text-[18px] text-[20px] font-medium px-[10px]" href="#">COLLECTION</a>
+                </li>
             </ul>
         </div>
         <div class="flex-2 h-[100%] flex items-center gap-5">
@@ -49,22 +57,24 @@
     </header>
 
     <section class="w-[95%] px-[50px]  pt-[50px] bg-gray-400 m-auto my-32 rounded-3xl flex justify-between">
-        <h1 class="text-[80px] font-bold">
-            CHIKAGO WEARDS <br>
-            FOR MAN <button
-                class="text-2xl font-normal p-5 px-10 rounded-[50px] border-2 border-black bg-[#E2AC8B] ">view now all<i
-                    class='bx bx-right-arrow-alt'></i></button>
+        <h1 id="head-h1" class="text-[80px] font-bold">
+            CHIKAGO WEARDS
+            FOR MAN
+            <button class="text-2xl font-normal p-5 px-10 rounded-[50px] border-2 border-black bg-[#E2AC8B] ">view now
+                all
+                <i class='bx bx-right-arrow-alt'></i>
+            </button>
         </h1>
-        <img src="img/IMAGE_2022-10-29_15_55_14_1-removebg-preview 1.png" alt="">
+        <img class="" src="img/IMAGE_2022-10-29_15_55_14_1-removebg-preview 1.png" alt="">
     </section>
 
-    <div class="w-[95%] flex gap-5 m-auto items-center justify-between">
+    <div id="main-line" class="w-[95%] flex gap-5 m-auto items-center justify-between">
         <h1 class="text-gray-400">ALL MENU</h1>
-        <h2 class="w-[92%] border-b-2 border-gray-500"></h2>
+        <h2 id="main-line-child" class="w-[92%] border-b-2 border-gray-500"></h2>
     </div>
 
-    <section class="w-[95%] flex gap-2 m-auto my-24">
-        <div class="w-[50%] flex flex-col gap-2">
+    <section id="head-reklam" class="w-[95%] flex gap-2 m-auto my-24">
+        <div id="head-reklam-child" class="w-[50%] flex flex-col gap-2">
             <div class="flex-1 p-10 bg-[#EBEBEB] rounded-3xl relative flex justify-between">
                 <h1 class="m-[10px] text-[50px] font-bold flex flex-col">
                     CAPS
@@ -83,10 +93,10 @@
                         SHOP NOW <i class='bx bx-right-arrow-alt'></i>
                     </button>
                 </h1>
-                <img class="h-[350px] object-cover" src="img/e17cd23fa2cc23b8947cd6e8b83777f1 1.png" alt="">
+                <img class="w-[50%] h-[250px] object-cover" src="img/e17cd23fa2cc23b8947cd6e8b83777f1 1.png" alt="">
             </div>
         </div>
-        <div class="w-[50%] flex flex-col gap-2">
+        <div id="head-reklam-child" class="w-[50%] flex flex-col gap-2">
             <div class="flex-1 p-10 bg-gray-100 rounded-3xl flex justify-between">
                 <h1 class=" m-[10px] text-[50px] font-bold">
                     JAVETS
@@ -105,71 +115,52 @@
                         SHOP NOW <i class='bx bx-right-arrow-alt'></i>
                     </button>
                 </h1>
-                <img class="w-[50%] h-[250px] object-cover" src="img/a1cbade99c9b4dea5d658f0a5182949a 2.png" alt="">
+                <img class="w-[50%] h-[250px] object-cover"
+                    src="img/air-jordan-1-retro-high-tie-dye-CD0461-100-2_1200x 4.png" alt="">
             </div>
         </div>
     </section>
 
-    <div class="bg-black text-white px-8 py-12 flex">
-        <div class="text-left flex-2 max-w-5xl mx-auto">
-            <h1 class="text-4xl font-bold mb-4">WE HAVE NEW PRODUCTS</h1>
-            <button
-                class="bg-yellow-400 text-black font-semibold px-6 py-2 rounded-full hover:bg-yellow-500 transition">
+    <section class="bg-black text-white px-8 py-12 flex">
+        <div class="text-left flex-1 max-w-5xl mx-auto mt-16">
+            <h1 id="order-text" class="text-8xl font-bold mb-4">WE HAVE NEW PRODUCTS</h1>
+            <button id="order-btn"
+                class="text-3xl bg-yellow-400 text-black font-semibold px-24 py-6 rounded-full hover:bg-yellow-500 transition">
                 SEE ALL →
             </button>
         </div>
 
-        <div class="mt-12 flex-1 h-[500px] mx-auto flex gap-2">
-            <div class="grid grid-cols-2 bg-gray- gap-2">
-                <div class="rounded-lg flex-1 overflow-hidden w-[300px] h-[100px]">
-                    <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/43a342e5-bb00-48c7-b4b0-a0a168976779/U+NK+DF+PRO+CAP+S+FB+FUT+L.png"
-                        alt="Cap" class="w-full object-cover" />
-                </div>
-                <!-- Card 2 -->
-                <div class="rounded-lg flex-1 overflow-hidden">
-                    <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/43a342e5-bb00-48c7-b4b0-a0a168976779/U+NK+DF+PRO+CAP+S+FB+FUT+L.png"
-                        alt="Harness" class="w-full object-cover" />
-                </div>
-                <!-- Card 3 -->
-                <div class="rounded-lg flex-1 overflow-hidden">
-                    <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/43a342e5-bb00-48c7-b4b0-a0a168976779/U+NK+DF+PRO+CAP+S+FB+FUT+L.png"
-                        alt="Hoodie" class="w-full object-cover" />
-                </div>
-                <!-- Card 4 -->
-                <div class="rounded-lg flex-1 overflow-hidden">
-                    <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/43a342e5-bb00-48c7-b4b0-a0a168976779/U+NK+DF+PRO+CAP+S+FB+FUT+L.png"
-                        alt="Pants" class="w-full object-cover" />
-                </div>
+        <div class="mt-12 mx-auto flex flex-1 gap-2">
+            <div class=" h-[400px] grid grid-cols-3 grid-rows-3 bg-gray- gap-2 flex-1">
+                <img class="rounded-3xl w-[100%] h-[100%] object-cover col-span-2"
+                    src="img/816d9dcbf9cd96f5defed00cb5e0a778 1.png" alt="">
+                <img class="rounded-3xl w-[100%] h-[100%] object-cover" src="img/asrvtacticalblack-722x722 1.png"
+                    alt="">
+                <img class="rounded-3xl w-[100%] h-[100%] object-cover row-span-4"
+                    src="img/a420aec51469ba81d1cc6b81b20c567a 1.png" alt="">
+                <img class="rounded-3xl w-[100%] h-[100%] object-cover col-span-2 row-span-4"
+                    src="img/asrvtacticalblack4-722x722 2.png" alt="">
             </div>
-            <div class="grid grid-cols-2 gap-2">
-                <div class="rounded-lg overflow-hidden">
-                    <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/43a342e5-bb00-48c7-b4b0-a0a168976779/U+NK+DF+PRO+CAP+S+FB+FUT+L.png"
-                        alt="Vest" class="w-full object-cover" />
-                </div>
-                <!-- Card 6 -->
-                <div class="rounded-lg overflow-hidden">
-                    <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/43a342e5-bb00-48c7-b4b0-a0a168976779/U+NK+DF+PRO+CAP+S+FB+FUT+L.png"
-                        alt="Sneakers 1" class="w-full object-cover" />
-                </div>
-                <!-- Card 7 -->
-                <div class="rounded-lg overflow-hidden">
-                    <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/43a342e5-bb00-48c7-b4b0-a0a168976779/U+NK+DF+PRO+CAP+S+FB+FUT+L.png"
-                        alt="Sneakers 2" class="w-full object-cover" />
-                </div>
-                <div class="rounded-lg overflow-hidden">
-                    <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/43a342e5-bb00-48c7-b4b0-a0a168976779/U+NK+DF+PRO+CAP+S+FB+FUT+L.png"
-                        alt="Sneakers 2" class="w-full object-cover" />
-                </div>
+            <div class="h-[400px] grid grid-cols-3 grid-rows-3 gap-2 flex-1">
+                <img class="rounded-3xl h-full w-full object-cover col-span-2 row-span-2"
+                    src="img/77f63b9d127a5fc881540a125ab67ee9 1.png" alt="">
+                <img class="rounded-3xl h-full w-full object-cover row-span-2"
+                    src="img/80bd4b7fed2b5f7bf1d49c6bdaa74c2d 2.png" alt="">
+                <img class="rounded-3xl h-full w-full object-cover" src="img/fc690350a0a1ce107fe1fe28b79a19ba 1.png"
+                    alt="">
+                <img class="rounded-3xl h-full w-full object-cover col-span-2"
+                    src="img/a1cbade99c9b4dea5d658f0a5182949a 2.png" alt="">
             </div>
         </div>
-    </div>
+    </section>
 
-    <section
-        class="grid grid-cols-4 w-[95%] py-20 m-auto gap-5 flex-wrap sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-4 items-center justify-center">
-        <div class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
+    <section id="section-cards"
+        class="grid grid-cols-4 w-[95%] py-20 m-auto gap-5 flex-wrap items-center justify-center">
+        <div id="cards"
+            class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
             <img src="img/asrvtacticalblack4-722x722 2.png" class="w-[100%] h-[350px] rounded-3xl object-cover" alt="">
             <div class="p-5 flex flex-col gap-5">
-                <h1 class="text-[20px] font-normal">
+                <h1 id="cards-text" class="text-[20px] font-normal">
                     Bape holiden jrdan air retro
                 </h1>
                 <p class="text-[20px] text-orange-600">
@@ -178,10 +169,11 @@
             </div>
 
         </div>
-        <div class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
+        <div id="cards"
+            class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
             <img src="img/asrvtacticalblack4-722x722 2.png" class="w-[100%] h-[350px] rounded-3xl object-cover" alt="">
             <div class="p-5 flex flex-col gap-5">
-                <h1 class="text-[20px] font-normal">
+                <h1 id="cards-text" class="text-[20px] font-normal">
                     Bape holiden jrdan air retro
                 </h1>
                 <p class="text-[20px] text-orange-600">
@@ -189,10 +181,11 @@
                 </p>
             </div>
         </div>
-        <div class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
+        <div id="cards"
+            class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
             <img src="img/asrvtacticalblack4-722x722 2.png" class="w-[100%] h-[350px] rounded-3xl object-cover" alt="">
             <div class="p-5 flex flex-col gap-5">
-                <h1 class="text-[20px] font-normal">
+                <h1 id="cards-text" class="text-[20px] font-normal">
                     Bape holiden jrdan air retro
                 </h1>
                 <p class="text-[20px] text-orange-600">
@@ -200,10 +193,11 @@
                 </p>
             </div>
         </div>
-        <div class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
+        <div id="cards"
+            class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
             <img src="img/asrvtacticalblack4-722x722 2.png" class="w-[100%] h-[350px] rounded-3xl object-cover" alt="">
             <div class="p-5 flex flex-col gap-5">
-                <h1 class="text-[20px] font-normal">
+                <h1 id="cards-text" class="text-[20px] font-normal">
                     Bape holiden jrdan air retro
                 </h1>
                 <p class="text-[20px] text-orange-600">
@@ -211,10 +205,11 @@
                 </p>
             </div>
         </div>
-        <div class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
+        <div id="cards"
+            class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
             <img src="img/asrvtacticalblack4-722x722 2.png" class="w-[100%] h-[350px] rounded-3xl object-cover" alt="">
             <div class="p-5 flex flex-col gap-5">
-                <h1 class="text-[20px] font-normal">
+                <h1 id="cards-text" class="text-[20px] font-normal">
                     Bape holiden jrdan air retro
                 </h1>
                 <p class="text-[20px] text-orange-600">
@@ -222,10 +217,11 @@
                 </p>
             </div>
         </div>
-        <div class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
+        <div id="cards"
+            class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
             <img src="img/asrvtacticalblack4-722x722 2.png" class="w-[100%] h-[350px] rounded-3xl object-cover" alt="">
             <div class="p-5 flex flex-col gap-5">
-                <h1 class="text-[20px] font-normal">
+                <h1 id="cards-text" class="text-[20px] font-normal">
                     Bape holiden jrdan air retro
                 </h1>
                 <p class="text-[20px] text-orange-600">
@@ -233,10 +229,11 @@
                 </p>
             </div>
         </div>
-        <div class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
+        <div id="cards"
+            class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
             <img src="img/asrvtacticalblack4-722x722 2.png" class="w-[100%] h-[350px] rounded-3xl object-cover" alt="">
             <div class="p-5 flex flex-col gap-5">
-                <h1 class="text-[20px] font-normal">
+                <h1 id="cards-text" class="text-[20px] font-normal">
                     Bape holiden jrdan air retro
                 </h1>
                 <p class="text-[20px] text-orange-600">
@@ -244,10 +241,11 @@
                 </p>
             </div>
         </div>
-        <div class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
+        <div id="cards"
+            class="w-[100%] h-[500px] rounded-3xl bg-gray-100 flex flex-col hover:translate-y-[-4px] transition-all cursor-pointer">
             <img src="img/asrvtacticalblack4-722x722 2.png" class="w-[100%] h-[350px] rounded-3xl object-cover" alt="">
             <div class="p-5 flex flex-col gap-5">
-                <h1 class="text-[20px] font-normal">
+                <h1 id="cards-text" class="text-[20px] font-normal">
                     Bape holiden jrdan air retro
                 </h1>
                 <p class="text-[20px] text-orange-600">
@@ -257,17 +255,104 @@
         </div>
     </section>
 
-    <div class="w-[95%] flex gap-5 m-auto items-center justify-between">
+    <div id="main-line-2" class="w-[95%] flex gap-5 m-auto items-center justify-between">
         <h1 class="text-gray-400">New Products</h1>
         <h2 class="w-[86%] border-b-2 border-gray-500"></h2>
+    </div>
+
+    <div class="h-200px bg-black text-white px-8 py-12 flex">
+        <div class="text-left flex-1 max-w-5xl mx-auto mt-16">
+            <h1 class="text-5xl font-bold mb-4">WE HAVE NEW PRODUCTS</h1>
+            <button id="order-btn"
+                class="text-3xl bg-yellow-400 text-black font-semibold px-24 py-6 rounded-full hover:bg-yellow-500 transition">
+                SEE ALL →
+            </button>
+        </div>
+
+        <div class="mt-12 mx-auto flex flex-1 gap-2">
+            <div id="cont-brand-logo" class="h-[500px] grid grid-cols-3 grid-rows-3 bg-gray- gap-2 flex-1">
+                <img class="bg-white rounded-3xl w-[100%] h-[100%] object-cover col-span-1"
+                    src="https://s3-alpha-sig.figma.com/img/af40/0413/12174a42626b70f77fd02e7c343fa5e9?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Q4Ul4maYYU-1m0T9J8xtF4d8MZncc-U5UX0C~15jEaaomalt-yIJpRqT3bMgCW-8mojd02EjB5sivFYXF0QR8dmD4Ixy7PiLd1oz7uWoG76hwuOeVIs8xCMooJfxvHD3xdhqBouS7CwFpLstzfPQJeW5STLQhxQXKOkpf2MR4bQ5aSxZSlzUC89~blpzx53RowU9BlHWlhWZ9UBUWI1eqVsR6vOZm--PzFDwnKtl8Y3PU-Ka1lnfppPbjuw3mJ0MY3yct3MpswFsjQ~y-FdS5viVYF7KnKB9A~z9g2wQ3igyCqMzPnbt7280gs5NpjCS38Flhm6C1chqtOQasKtfuA__"
+                    alt="">
+                <img class="bg-white rounded-3xl w-[100%] h-[100%] object-cover col-span-2"
+                    src="https://s3-alpha-sig.figma.com/img/0d9c/daa2/169a4c1b36922d7d8789773147dc889f?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ozrToTLp7p8GO76LsCDFosZ5aq9BpRdWqpWn2e3IZdR5xTVM~xjTh44TD9WqA~kz6SlsEPECEE4Yn55btu-B67~VtZ7jLoQLA4Zwcdiv4J-OnVOGlaD~FrgBDPOcM-567QKCROc~4cACu5vw66ZYMdXGSKqy3S1DJlskmcpmPI8Spri-9CduyzR4vF4qmTOWRuKmrYhlR4KW8IBP~zo~h5lM6TiYtSAxgwnbjthoNw8YEfNz2xh8in2aDQ5vtuWX-32v6d1OeVWC~9ZVpSPWZzhw2GhgpjjVhzvRoHwjgObW2u2kA62aEpBqTIs84252a2tsLGu7Up4pMnf13Ri61w__"
+                    alt="">
+                <img class="bg-white rounded-3xl w-[100%] h-[100%] object-cover row-span-4"
+                    src="https://s3-alpha-sig.figma.com/img/85d7/7bf5/ba3c8ce77543234a1bcce133d952aba4?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p6E~yavmzmL~N~HBIPOpIwraddKKndLT4DI~3b6xFURQ2ukOlbI4~HEuDJ5l02Y4zAXg99NWZQF~GfejLkTecdiGSTdcgj0rnH1lwHlwm9irYLJXBl6p3WyOr2t5wguxlDWvlDDlH44kilUP0havwEFoUpp8g4eOOh0D~YV5STrk63UpxNQCJQVNuGauRclqfHK5xWZ5JpfiVOS-Uc6BezWMmVdDs5lPVqRxWjCT7aYcu~-kJ-ir3BOuIUJuBLwd-16H967Sx5avOKW9Bmu7iCZb8aVcWQgpOC4vXeAlhck4ciM1Mx797lGuuFDnaQ-y4E6IT0AHTHwXrzHe8AM4pw__"
+                    alt="">
+                <img class="bg-white rounded-3xl w-[100%] h-[100%] object-cover col-span-2 row-span-4"
+                    src="https://s3-alpha-sig.figma.com/img/02f4/a618/77f76505b25b753265fbe9da923496e5?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ekR28bYbq7hOcf8ToFwCzJu6x-ITzf55aY4gYcaAkVXfnb01ldknknbZ2Vix9wd3b04hb~YIfxB5KfFgCMdiHC1d~DO-uvelb4cXZSMMj-2jQ8XZ79jgPWtQhS8US~1q4-rUTZhUISOZP6dA1a~6aPs3CcR-f-28Npf0Jcvit5aM2YNiulACwh~6f07ifCce-l0wuVQ1k2GS3VNT0ukFky8QI1QEcr1KnbtaW17ckyR8gRX4UF~Yv39zPdy-4M-ngLS8QM8xBTGuOzvCE3zAladq5t4~~J6yKkNjDIFpUfiLvUXLLEVGclqHUM8a3a3Svjd9por1rXAowIoAZl1B5Q__"
+                    alt="">
+            </div>
+            <div id="cont-brand-logo" class="h-[500px] grid grid-cols-3 grid-rows-3 gap-2 flex-1">
+                <img class="rounded-3xl h-full w-full object-cover col-span-2 row-span-2"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFajL9Ou_bJa70PJ49fhzk-Zx55QH2QdaPsA&s"
+                    alt="">
+                <img class="rounded-3xl h-full w-full object-cover row-span-2"
+                    src="img/80bd4b7fed2b5f7bf1d49c6bdaa74c2d 2.png" alt="">
+                <img class="bg-white rounded-3xl h-full w-full object-cover col-span-2"
+                    src="https://www.autocollants-stickers.com/resize/634x480/zc/2/f/0/src/sites/astickers/files/products/1713.png"
+                    alt="">
+                <img class="rounded-3xl h-full w-full object-cover" src="img/a1cbade99c9b4dea5d658f0a5182949a 2.png"
+                    alt="">
+            </div>
+        </div>
     </div>
 
 
 
 
-    <footer class="w-[95%] py-20 m-auto">
+    <footer class="bg-gray-900 text-gray-300 p-6 rounded-lg">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Left Section -->
+            <div>
+                <h3 class="text-yellow-500 font-bold text-lg mb-2">All or Nothing</h3>
+                <p class="text-gray-300">+94 099 4001</p>
+                <p class="text-gray-300">+94 099 4001</p>
+            </div>
 
+            <!-- Middle Section -->
+            <div class="flex flex-1">
+                <div class="flex-1">
+                    <p class="mb-2">Biz haqimizda</p>
+                    <p class="mb-4">Ish vaqti 11:00 - 23:00</p>
+                </div>
+                <div class="space-y-2">
+                    <div class="flex items-center bg-gray-800 p-2 rounded-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5 text-gray-400 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21.75 4.5c0-.621-.504-1.125-1.125-1.125h-17.25c-.621 0-1.125.504-1.125 1.125v15c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-15z" />
+                        </svg>
+                        <span>allornothing.uz@gmail.com</span>
+                    </div>
+                    <div class="flex items-center bg-gray-800 p-2 rounded-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5 text-gray-400 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75-9.75-4.365-9.75-9.75 4.365-9.75 9.75-9.75zM12 7.5v5.25l4.125 2.475" />
+                        </svg>
+                        <span>T.Sh Moirobod tuman. Fidokor 10, 4a uy</span>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Right Section -->
+            <div class="flex items-center justify-center md:justify-end space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white transition" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.056 2.06.246 2.82.528a5.919 5.919 0 012.092 1.367 5.919 5.919 0 011.367 2.092c.282.76.472 1.614.528 2.82.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.206-.246 2.06-.528 2.82a5.919 5.919 0 01-1.367 2.092 5.919 5.919 0 01-2.092 1.367c-.76.282-1.614.472-2.82.528-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.206-.056-2.06-.246-2.82-.528a5.919 5.919 0 01-2.092-1.367 5.919 5.919 0 01-1.367-2.092c-.282-.76-.472-1.614-.528-2.82C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.206.246-2.06.528-2.82a5.919 5.919 0 011.367-2.092A5.919 5.919 0 015.956 2.7c.76-.282 1.614-.472 2.82-.528C8.416 2.175 8.796 2.163 12 2.163zM12 0C8.756 0 8.342.013 7.053.072 5.84.131 4.675.325 3.604.725 2.406 1.156 1.156 2.406.725 3.604.325 4.675.131 5.84.072 7.053.013 8.342 0 8.756 0 12s.013 3.658.072 4.947c.06 1.213.254 2.378.653 3.449.431 1.198 1.682 2.448 2.88 2.879 1.071.4 2.236.594 3.449.653C8.342 23.987 8.756 24 12 24s3.658-.013 4.947-.072c1.213-.06 2.378-.254 3.449-.653 1.198-.431 2.448-1.682 2.879-2.88.4-1.071.594-2.236.653-3.449.059-1.289.072-1.703.072-4.947s-.013-3.658-.072-4.947c-.06-1.213-.254-2.378-.653-3.449-.431-1.198-1.682-2.448-2.88-2.879-1.071-.4-2.236-.594-3.449-.653C15.658.013 15.244 0 12 0z" />
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition" aria-label="Facebook">
+                    <!-- Facebook icon -->
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition" aria-label="Telegram">
+                    <!-- Telegram icon -->
+                </a>
+            </div>
+        </div>
     </footer>
 
 </body>
