@@ -44,6 +44,9 @@
     #cont-brand-logo{
         height: 400px;
     }
+    #zood-text-h2{
+        font-size: 40px;
+    }
 }
 
 @media(max-width: 992px) {
@@ -117,6 +120,11 @@
     #heave-product-child-img-height{
         height: auto;
         gap: 10px;
+    }
+    #zoodpay-section{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
     }
 }
 
