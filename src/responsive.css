@@ -106,8 +106,17 @@
     #cards img{
         height: 70%;
     }
+    #have-product{
+        padding: 10px 10px;
+    }
     #heave-product-child{
+        gap: 10px;
         flex-direction: column;
+        padding: 0;
+    }
+    #heave-product-child-img-height{
+        height: auto;
+        gap: 10px;
     }
 }
 
